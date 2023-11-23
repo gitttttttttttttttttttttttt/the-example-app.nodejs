@@ -160,4 +160,6 @@ app.use(function (err, request, response, next) {
   response.render('error')
 })
 
+console.log('hello');
+
 module.exports = app
